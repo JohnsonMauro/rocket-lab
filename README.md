@@ -1,6 +1,6 @@
 # Rocket Lab
 
-![Rocket Lab](https://www.rocketlab.com.au/wp-content/uploads/2017/09/RL_logo_white.png)
+![Rocket Lab](https://media-exp1.licdn.com/dms/image/C510BAQFHAXcokHNLzg/company-logo_200_200/0?e=1598486400&v=beta&t=p3tjhshZTpexJLje8a71sMQP67F2ouXix5CW2H8tu2w)
 
 > Project for Rocket Lab company!
 
