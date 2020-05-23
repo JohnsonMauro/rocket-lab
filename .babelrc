@@ -1,0 +1,22 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    ["emotion"],
+    ["graphql-tag"],
+    [
+      "module-resolver",
+      {
+        "root": ["."],
+        "alias": {
+          "@components": "./src/components",
+          "@images": "./public/images",
+          "@lib": "./src/lib",
+          "@pages": "./pages",
+          "@public": "./public",
+          "@theme": "./src/theme",
+          "@utils": "./src/utils"
+        }
+      }
+    ]
+  ]
+}
