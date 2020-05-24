@@ -1,8 +1,16 @@
-# Rocket Lab
+<p align="center">
+  <img src="https://media-exp1.licdn.com/dms/image/C510BAQFHAXcokHNLzg/company-logo_200_200/0?e=1598486400&v=beta&t=p3tjhshZTpexJLje8a71sMQP67F2ouXix5CW2H8tu2w" width="211" height="182" alt="RocketLab" />
+</p>
 
-![Rocket Lab](https://media-exp1.licdn.com/dms/image/C510BAQFHAXcokHNLzg/company-logo_200_200/0?e=1598486400&v=beta&t=p3tjhshZTpexJLje8a71sMQP67F2ouXix5CW2H8tu2w)
+<h2 align="center">
+  <strong>This is Rocket Lab.</strong>
+</h2>
+
+**Visit [https://www.rocketlab.com.au/](https://www.rocketlab.com.au/) to get more information!**
 
 > Project for Rocket Lab company!
+
+---
 
 ## Stack 🏭
 
