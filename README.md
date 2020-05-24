@@ -18,6 +18,8 @@
 - React 16.7.0: [React](https://reactjs.org/)
 - Next.js 7.0.13: [Next.js](https://nestjs.com/)
 - Apollo 2.6.10: [Apollo](https://www.apollographql.com/)
+- Jest 26.0.1: [Jest](https://jestjs.io/)
+- Formik 2.1.4: [Formik](https://jaredpalmer.com/formik/)
 
 ## Run the project locally 🔧
 
@@ -38,6 +40,16 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `components/HomePage/index.js`. The page auto-updates as you edit the file.
+
+## Testing 🚨
+
+- All tests are currently contained within the '**test**' folder.
+- Tests run using Jest and React Testing Library (with snapshots).
+- Tests can be run with:
+
+```sh
+npm run test
+```
 
 ## Updates 🎨
 
