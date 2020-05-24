@@ -24,6 +24,10 @@ const InputStyles = styled.input`
   &::placeholder {
     color: ${({ theme }) => theme.colors.gainsboro};
   }
+
+  @media (max-width: 576px) {
+    max-width: 100%;
+  }
 `;
 
 export { InputStyles };

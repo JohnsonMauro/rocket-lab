@@ -25,6 +25,10 @@ const SelectStyles = styled.select`
   option[value=''] {
     color: ${({ theme }) => theme.colors.gainsboro};
   }
+
+  @media (max-width: 576px) {
+    max-width: 100%;
+  }
 `;
 
 export { SelectStyles };

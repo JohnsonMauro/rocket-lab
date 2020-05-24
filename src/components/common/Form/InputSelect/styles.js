@@ -14,6 +14,10 @@ const ControlGroup = styled.div`
   select {
     background-position: 90% 50%;
     max-width: 87px;
+
+    @media (max-width: 576px) {
+      max-width: 87px;
+    }
   }
 `;
 
@@ -32,6 +36,10 @@ const ControlInput = styled.input`
 
   &::placeholder {
     color: ${({ theme }) => theme.colors.gainsboro};
+  }
+
+  @media (max-width: 576px) {
+    max-width: 100%;
   }
 `;
 

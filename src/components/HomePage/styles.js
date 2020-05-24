@@ -15,6 +15,12 @@ const HomePageStyles = styled.div`
     margin: 0;
     width: 100%;
   }
+
+  @media (max-width: 576px) {
+    section {
+      padding: 0 20px;
+    }
+  }
 `;
 
 const InputContainer = styled.div`
@@ -27,6 +33,15 @@ const InputContainer = styled.div`
 
   & > div:nth-of-type(1) {
     margin-right: 15px;
+
+    @media (max-width: 576px) {
+      margin-right: 0;
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 576px) {
+    flex-direction: column;
   }
 `;
 
@@ -34,6 +49,10 @@ const InputGroup = styled.div`
   display: inline-block;
   margin-bottom: 20px;
   width: 332px;
+
+  @media (max-width: 576px) {
+    width: 100%;
+  }
 `;
 
 const InfoContainer = styled.div`
