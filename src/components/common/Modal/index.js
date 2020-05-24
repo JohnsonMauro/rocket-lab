@@ -1,38 +1,50 @@
 import React, { useState, useEffect, useCallback } from 'react';
 
+import Close from '@svg/close.svg';
+
 import {
   ModalStyles,
   ModalContent,
   ModalHeader,
+  ModalHeaderClose,
   ModalHeaderTitle,
+  ModalHeaderImg,
   ModalHeaderSubTitle,
   ModalBody,
 } from './styles';
 
-const Modal = ({ children, isInitiallyOpened, onOpening, subTitle, title }) => {
-  const [isOpened, setOpeningStatus] = useState(false);
+const Modal = ({
+  children,
+  icon,
+  initialOpened,
+  onClosing,
+  onOpening,
+  subTitle,
+  title,
+}) => {
+  const [isOpened, setOpening] = useState(false);
 
   useEffect(() => {
-    if (isInitiallyOpened) {
-      setOpeningStatus(true);
+    if (initialOpened) {
+      setOpening(true);
     }
-  }, [isInitiallyOpened]);
+  }, [initialOpened]);
 
   useEffect(() => {
     if (isOpened) {
       onOpening();
-      setOpeningStatus(true);
+      setOpening(true);
     }
   }, [isOpened]);
 
-  const handleClosingClick = useCallback(() => {
+  const handleClose = useCallback(() => {
     onClosing();
-    setOpeningStatus(false);
+    setOpening(false);
   }, []);
 
   const handleDismiss = useCallback((e) => {
     if (e.target.id === 'dismiss-modal') {
-      handleClosingClick();
+      handleClose();
     }
   }, []);
 
@@ -41,10 +53,22 @@ const Modal = ({ children, isInitiallyOpened, onOpening, subTitle, title }) => {
   }
 
   return (
-    <ModalStyles aria-modal={isOpened} id="dismiss-modal" onClick={handleDismiss} role="dialog">
+    <ModalStyles
+      aria-modal={isOpened}
+      data-testid="modal-component"
+      id="dismiss-modal"
+      onClick={handleDismiss}
+      role="dialog"
+    >
       <ModalContent>
         <ModalHeader>
+          <ModalHeaderClose
+            src={Close}
+            data-testid="modal-close-button"
+            onClick={handleClose}
+          ></ModalHeaderClose>
           <ModalHeaderTitle>{title}</ModalHeaderTitle>
+          <ModalHeaderImg src={icon}></ModalHeaderImg>
           <ModalHeaderSubTitle>{subTitle}</ModalHeaderSubTitle>
         </ModalHeader>
         <ModalBody>{children}</ModalBody>

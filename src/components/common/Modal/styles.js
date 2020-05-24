@@ -38,9 +38,24 @@ const ModalHeader = styled.div`
 
 const ModalHeaderTitle = styled.h1`
   color: ${({ theme }) => theme.colors.blackRussian};
+  display: inline-block;
   font-size: 25px;
   font-weight: 400;
-  margin-bottom: 13px;
+  margin: 50px 15px 13px 0;
+`;
+
+const ModalHeaderImg = styled.img`
+  height: 16px;
+  width: 22px;
+`;
+
+const ModalHeaderClose = styled.img`
+  cursor: pointer;
+  height: 16px;
+  position: absolute;
+  right: 37px;
+  top: 30px;
+  width: 16px;
 `;
 
 const ModalHeaderSubTitle = styled.h4`
@@ -52,4 +67,13 @@ const ModalHeaderSubTitle = styled.h4`
 
 const ModalBody = styled.div``;
 
-export { ModalStyles, ModalContent, ModalHeader, ModalHeaderTitle, ModalHeaderSubTitle, ModalBody };
+export {
+  ModalStyles,
+  ModalContent,
+  ModalHeader,
+  ModalHeaderTitle,
+  ModalHeaderImg,
+  ModalHeaderClose,
+  ModalHeaderSubTitle,
+  ModalBody,
+};
