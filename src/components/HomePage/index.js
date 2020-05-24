@@ -16,7 +16,6 @@ import Check from '@svg/check.svg';
 
 import { HomePageStyles, InputContainer, InputGroup, InfoContainer, InfoGroup } from './styles';
 
-import { EmailValidate, PostCodeValidate } from '@utils/validations';
 import { PhoneMask, PostCodeMask } from '@utils/masks';
 import { mockSelectTitles, mockSelectState } from './mocks';
 import { FormStructure, YupValidations } from './formStructure';

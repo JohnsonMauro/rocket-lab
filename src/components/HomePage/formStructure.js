@@ -1,5 +1,7 @@
 import * as Yup from 'yup';
 
+import { EmailValidateregex, OnlyNumberRegex, PostCodeValidateRegex } from '@utils/validations';
+
 const FormStructure = {
   firstName: '',
   lastName: '',
@@ -35,7 +37,7 @@ const YupValidations = Yup.object({
     .max(50, 'Must be 50 characters or less!')
     .required('Please provide your company name!'),
   phone: Yup.string()
-    .matches(/([0-9])$/, 'Please provide a valid postcode!')
+    .matches(OnlyNumberRegex, 'Please provide a valid postcode!')
     .min(10, 'Phone number must be 10 digits!')
     .required('Please provide your phone number!'),
   fax: Yup.string()
@@ -59,7 +61,7 @@ const YupValidations = Yup.object({
     .required('Please provide your city!'),
   state: Yup.string().required('Please provide your state!'),
   postcode: Yup.string()
-    .matches(/^(0[289][0-9]{2})|([1-9][0-9]{3})$/, 'Please provide a valid postcode!')
+    .matches(PostCodeValidateRegex, 'Please provide a valid postcode!')
     .min(4, 'Must be 4 digits!')
     .required('Please provide your postcode!'),
   description: Yup.string()
