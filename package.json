@@ -1,11 +1,22 @@
 {
   "name": "crunch-accounting",
   "version": "1.0.0",
+  "author": "Johnson Mauro",
+  "description": "Project for the RocketLab company!",
+  "homepage": "https://www.rocketlab.com.au/",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnsonMauro/rocket-lab"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:snapshots": "jest --u",
+    "test:ci": "jest --ci"
   },
   "dependencies": {
     "@apollo/react-hooks": "3.1.5",
@@ -20,13 +31,17 @@
     "graphql": "^15.0.0",
     "graphql-tag": "2.10.3",
     "next": "latest",
+    "next-images": "^1.4.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@testing-library/react": "^10.0.4",
     "babel-plugin-emotion": "^10.0.33",
     "babel-plugin-graphql-tag": "^2.5.0",
-    "babel-plugin-module-resolver": "^4.0.0"
+    "babel-plugin-module-resolver": "^4.0.0",
+    "jest": "^26.0.1",
+    "jest-emotion": "^10.0.32"
   }
 }
