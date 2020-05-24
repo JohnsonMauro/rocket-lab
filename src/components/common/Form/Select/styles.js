@@ -1,7 +1,13 @@
 import styled from '@emotion/styled';
 
+import ArrowDown from '@svg/arrow-down.svg';
+
 const SelectStyles = styled.select`
-  border: 0.2px solid ${({ theme }) => theme.colors.gainsboro};
+  appearance: none;
+  background-image: url(${ArrowDown});
+  background-position: 97% 50%;
+  background-repeat: no-repeat;
+  border: 0.2px solid ${({ error, theme }) => (error ? theme.colors.error : theme.colors.gainsboro)};
   border-radius: 1.8px;
   display: block;
   height: 34px;
