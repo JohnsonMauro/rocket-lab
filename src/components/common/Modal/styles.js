@@ -30,6 +30,18 @@ const ModalContent = styled.div`
   section {
     padding: 0;
   }
+
+  @media (max-width: 992px) {
+    padding: 0 25px;
+    width: 85%;
+  }
+
+  @media (max-width: 576px) {
+    box-shadow: none;
+    height: 100%;
+    min-height: unset;
+    width: 100%;
+  }
 `;
 
 const ModalHeader = styled.div`
@@ -56,6 +68,11 @@ const ModalHeaderClose = styled.img`
   right: 37px;
   top: 30px;
   width: 16px;
+
+  @media (max-width: 576px) {
+    right: 23px;
+    top: 19px;
+  }
 `;
 
 const ModalHeaderSubTitle = styled.h4`
