@@ -1,10 +1,15 @@
-const mockSelectState = [
-  { value: 1, option: 'New South Wales' },
-  { value: 2, option: 'Victoria' },
-  { value: 3, option: 'Queensland' },
-  { value: 4, option: 'Western Australia' },
-  { value: 5, option: 'South Australia' },
-  { value: 6, option: 'Tsmania' },
+const mockSelectTitles = [
+  { value: 1, option: 'Mr.' },
+  { value: 2, option: 'Mrs.' },
 ];
 
-export { mockSelectState };
+const mockSelectState = [
+  { value: 'New South Wales', option: 'New South Wales' },
+  { value: 'Victoria', option: 'Victoria' },
+  { value: 'Queensland', option: 'Queensland' },
+  { value: 'Western Australia', option: 'Western Australia' },
+  { value: 'South Australia', option: 'South Australia' },
+  { value: 'Tsmania', option: 'Tsmania' },
+];
+
+export { mockSelectTitles, mockSelectState };

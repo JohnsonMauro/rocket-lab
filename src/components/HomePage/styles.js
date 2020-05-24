@@ -11,7 +11,7 @@ const HomePageStyles = styled.div`
     margin-top: 50px;
   }
 
-  section:nth-child(4) > article > div > div {
+  section:nth-of-type(3) > article > div > div {
     margin: 0;
     width: 100%;
   }
@@ -29,6 +29,8 @@ const InputContainer = styled.div`
     margin-right: 15px;
   }
 `;
+
+
 
 const InputGroup = styled.div`
   display: inline-block;

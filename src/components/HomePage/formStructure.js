@@ -9,6 +9,7 @@ const FormStructure = {
   fax: fields,
   title: fields,
   email: fields,
+  emailOptOut: { value: false, error: null },
   numberAndStreet: fields,
   city: fields,
   state: fields,
