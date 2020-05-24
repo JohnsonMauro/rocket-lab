@@ -12,6 +12,7 @@ const ControlGroup = styled.div`
   display: flex;
 
   select {
+    background-position: 90% 50%;
     max-width: 87px;
   }
 `;

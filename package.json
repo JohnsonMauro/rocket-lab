@@ -28,13 +28,15 @@
     "apollo-client": "2.6.10",
     "apollo-link-http": "1.5.17",
     "emotion-theming": "^10.0.27",
+    "formik": "^2.1.4",
     "graphql": "^15.0.0",
     "graphql-tag": "2.10.3",
     "next": "latest",
     "next-images": "^1.4.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "yup": "^0.29.0"
   },
   "devDependencies": {
     "@testing-library/react": "^10.0.4",

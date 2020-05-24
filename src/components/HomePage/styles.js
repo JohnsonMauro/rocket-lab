@@ -30,8 +30,6 @@ const InputContainer = styled.div`
   }
 `;
 
-
-
 const InputGroup = styled.div`
   display: inline-block;
   margin-bottom: 20px;
@@ -51,7 +49,13 @@ const InfoGroup = styled.div`
     margin-right: 40px;
     opacity: 0.5;
     text-align: right;
-    width: 142px;
+    width: 174px;
+  }
+
+  span {
+    display: block;
+    min-width: 203px;
+    width: 100%;
   }
 `;
 

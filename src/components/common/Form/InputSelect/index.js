@@ -1,36 +1,22 @@
+import { useField } from 'formik';
+
 import ErrorMessage from '../Message/ErrorMessage';
 import Select from '@components/common/Form/Select';
 
 import { ControlGroup, ControlInput } from './styles';
 
-const InputSelect = ({
-  error,
-  id,
-  maxLength,
-  minLength,
-  inputName,
-  placeholder,
-  onChange,
-  type,
-  selectName,
-  options,
-}) => (
-  <>
-    <ControlGroup>
-      <Select options={options} name={selectName} />
-      <ControlInput
-        error={error}
-        type={type}
-        id={id}
-        maxLength={maxLength}
-        minLength={minLength}
-        name={inputName}
-        placeholder={placeholder}
-        onChange={onChange}
-      />
-    </ControlGroup>
-    {!!error && <ErrorMessage>{error}</ErrorMessage>}
-  </>
-);
+const InputSelect = ({ options, selectName, ...props }) => {
+  const [field, meta] = useField(props);
+
+  return (
+    <>
+      <ControlGroup>
+        <Select options={options} name={selectName} />
+        <ControlInput {...field} {...props} {...meta} />
+      </ControlGroup>
+      {meta.touched && meta.error ? <ErrorMessage>{meta.error}</ErrorMessage> : null}
+    </>
+  );
+};
 
 export default InputSelect;

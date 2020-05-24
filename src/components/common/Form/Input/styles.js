@@ -10,8 +10,8 @@ const Error = css`
 
 const InputStyles = styled.input`
   ${({ error }) => error && Error};
-  border: 0.2px solid ${({ error, theme }) =>
-    error ? theme.colors.error : theme.colors.gainsboro};
+  border: 0.2px solid
+    ${({ error, theme }) => (error ? `${theme.colors.error}` : `${theme.colors.gainsboro}`)};
   border-radius: 1.8px;
   display: block;
   height: 34px;

@@ -1,20 +1,17 @@
+import { useField } from 'formik';
+
 import ErrorMessage from '../Message/ErrorMessage';
 import { TextAreaStyles } from './styles';
 
-const TextArea = ({ error, id, maxLength, minLength, name, onChange, required, rows }) => (
-  <>
-    <TextAreaStyles
-      error={error}
-      id={id}
-      maxLength={maxLength}
-      minLength={minLength}
-      name={name}
-      onChange={onChange}
-      required={required}
-      rows={rows}
-    ></TextAreaStyles>
-    {!!error && <ErrorMessage>{error}</ErrorMessage>}
-  </>
-);
+const TextArea = ({ ...props }) => {
+  const [field, meta] = useField(props);
+  
+  return (
+    <>
+      <TextAreaStyles {...field} {...props} {...meta}></TextAreaStyles>
+      {meta.touched && meta.error ? <ErrorMessage>{meta.error}</ErrorMessage> : null}
+    </>
+  );
+};
 
 export default TextArea;
