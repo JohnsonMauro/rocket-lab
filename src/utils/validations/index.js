@@ -3,9 +3,9 @@ const EmailValidate = (email) => {
   return regex.test(email);
 };
 
-const postCode = (postCode) => {
+const PostCodeValidate = (postCode) => {
   const regex = /^(0[289][0-9]{2})|([1-9][0-9]{3})$/;
   return regex.test(postCode);
 };
 
-export { EmailValidate, postCode };
+export { EmailValidate, PostCodeValidate };
