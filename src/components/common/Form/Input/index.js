@@ -10,6 +10,7 @@ const Input = ({
   name,
   onChange,
   placeholder,
+  required,
   type,
   value,
 }) => (
@@ -23,6 +24,7 @@ const Input = ({
       name={name}
       placeholder={placeholder}
       onChange={onChange}
+      required={required}
       type={type}
       value={value}
     ></InputStyles>
