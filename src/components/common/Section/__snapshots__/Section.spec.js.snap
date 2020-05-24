@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Section /> Renders the Section component 1`] = `
+<div>
+  <section
+    class="css-14vzaee-SectionStyles e18gs0ft0"
+  >
+    <header
+      class="css-1pnqzzo-SectionTitleHeader e18gs0ft1"
+    >
+      <h1
+        class="css-1y395ha-SectionTitle e18gs0ft2"
+      >
+        Title Sample
+      </h1>
+    </header>
+    <article
+      class="css-113vdcb-SectionArticle e18gs0ft3"
+    >
+      Sample
+    </article>
+  </section>
+</div>
+`;

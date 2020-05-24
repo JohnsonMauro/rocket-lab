@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> Renders the Main component 1`] = `
+<div>
+  <main
+    class="css-qhyxkp-MainStyles eala1j80"
+  >
+    Sample
+  </main>
+</div>
+`;

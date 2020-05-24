@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> Renders the Footer component 1`] = `
+<div>
+  <footer
+    class="css-671999-FooterStyles e7d5c7x0"
+  >
+    <p
+      class="css-1ab5tj5-RightReserved e7d5c7x1"
+    >
+      © 2020 Crunch Accounting. All right reserved.
+    </p>
+    <div
+      class="css-1hwhkkb-LinkContainer e7d5c7x2"
+    >
+      <a
+        class="css-1fwtyfg-LinkStyles e12g151z0"
+        href="#"
+      >
+        Privacy Policy
+      </a>
+      <a
+        class="css-1fwtyfg-LinkStyles e12g151z0"
+        href="#"
+      >
+        Terms of Service
+      </a>
+    </div>
+  </footer>
+</div>
+`;

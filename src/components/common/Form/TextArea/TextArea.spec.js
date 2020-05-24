@@ -2,19 +2,12 @@ import React from 'react';
 import { render } from '@testing-library/react';
 
 import GlobalsContainer from '@test/GlobalsContainer';
-import Input from './index';
+import TextArea from './index';
 
-describe('<Input />', () => {
-  it('Renders the Input component', () => {
+describe('<TextArea />', () => {
+  it('Renders the TextArea component', () => {
     const { container } = render(
-      <Input
-        type="text"
-        id="sample"
-        maxLength="50"
-        minLength="1"
-        name="sample"
-        placeholder="Sample"
-      />,
+      <TextArea id="sample" maxLength="2000" name="sample" rows="5" />,
       {
         wrapper: GlobalsContainer,
       }

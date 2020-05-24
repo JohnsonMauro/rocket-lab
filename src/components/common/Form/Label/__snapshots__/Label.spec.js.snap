@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Label /> Renders the Label component 1`] = `
+<div>
+  <label
+    class="css-jdgriv-LabelStyle e6ushqh0"
+    for="sample"
+  >
+    Sample
+  </label>
+</div>
+`;

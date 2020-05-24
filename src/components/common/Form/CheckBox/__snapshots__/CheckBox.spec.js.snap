@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckBox /> Renders the checkBox component 1`] = `
+<div>
+  <label
+    class="eynslpk1 css-fad30s-LabelStyle-CheckBoxLabel e6ushqh0"
+    for="checkTest"
+  >
+    test check box
+    <input
+      class="css-i1akeh-CheckBoxInput eynslpk2"
+      id="checkTest"
+      name="checkTest"
+      type="checkbox"
+      value=""
+    />
+    <span
+      class="css-qrnin0-CheckBoxSpan eynslpk3"
+    />
+  </label>
+</div>
+`;
