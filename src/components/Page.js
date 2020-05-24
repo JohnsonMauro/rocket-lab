@@ -13,7 +13,10 @@ const Page = ({ title, children }) => {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
         />
+        
         <title>{title}</title>
+
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"></link>
       </Head>
 
       <Header />
