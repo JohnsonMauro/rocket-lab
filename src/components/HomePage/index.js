@@ -11,8 +11,7 @@ import InputSelect from '@components/common/Form/InputSelect';
 import Input from '@components/common/Form/Input';
 import Select from '@components/common/Form/Select';
 import TextArea from '@components/common/Form/TextArea';
-import Modal from '@components/common/Modal';
-import Check from '@svg/check.svg';
+import ConfirmDetails from '@components/HomePage/ConfirmDetails';
 
 import { HomePageStyles, InputContainer, InputGroup, InfoContainer, InfoGroup } from './styles';
 
@@ -28,7 +27,7 @@ const HomePage = () => {
 
   useEffect(() => {
     setVisibleModal(false);
-  }, [modal]);
+  }, [ConfirmDetails]);
 
   const handlePhoneMask = (e) => {
     setPhoneMask(PhoneMask(e.target.value));
@@ -237,91 +236,7 @@ const HomePage = () => {
         </Form>
       </Formik>
 
-      <Modal
-        icon={Check}
-        subTitle="The contact details have been saved"
-        title="Saved"
-        initialOpened={modal}
-      >
-        {!!modalData && (
-          <>
-            <Section title="Contact Information">
-              <InfoContainer>
-                <InfoGroup>
-                  <Label forControl="firstName">First Name</Label>
-                  <span>{modalData.firstName}</span>
-                </InfoGroup>
-                <InfoGroup>
-                  <Label forControl="lastName">Last Name</Label>
-                  <span>{modalData.lastName}</span>
-                </InfoGroup>
-              </InfoContainer>
-              <InfoContainer>
-                <InfoGroup>
-                  <Label forControl="accountName">Account Name</Label>
-                  <span>{modalData.accountName}</span>
-                </InfoGroup>
-                <InfoGroup>
-                  <Label forControl="companyName">Company Name</Label>
-                  <span>{modalData.companyName}</span>
-                </InfoGroup>
-              </InfoContainer>
-              <InfoContainer>
-                <InfoGroup>
-                  <Label forControl="phone">Phone</Label>
-                  <span>{modalData.phone}</span>
-                </InfoGroup>
-                <InfoGroup>
-                  <Label forControl="fax">Fax (optional)</Label>
-                  <span>{modalData.fax}</span>
-                </InfoGroup>
-              </InfoContainer>
-              <InfoContainer>
-                <InfoGroup>
-                  <Label forControl="title">Title (optional)</Label>
-                  <span>{modalData.title}</span>
-                </InfoGroup>
-                <InfoGroup>
-                  <Label forControl="email">Email</Label>
-                  <span>{modalData.email}</span>
-                </InfoGroup>
-              </InfoContainer>
-            </Section>
-
-            <Section title="Address Information">
-              <InfoContainer>
-                <InfoGroup>
-                  <Label forControl="title">Street No. & Street</Label>
-                  <span>{modalData.numberAndStreet}</span>
-                </InfoGroup>
-                <InfoGroup>
-                  <Label forControl="city">City</Label>
-                  <span>{modalData.city}</span>
-                </InfoGroup>
-              </InfoContainer>
-              <InfoContainer>
-                <InfoGroup>
-                  <Label forControl="state">State</Label>
-                  <span>{modalData.state}</span>
-                </InfoGroup>
-                <InfoGroup>
-                  <Label forControl="postcode">Postcode</Label>
-                  <span>{modalData.postcode}</span>
-                </InfoGroup>
-              </InfoContainer>
-            </Section>
-
-            <Section title="Description Information">
-              <InfoContainer>
-                <InfoGroup>
-                  <Label forControl="description">Description</Label>
-                  <span>{modalData.description}</span>
-                </InfoGroup>
-              </InfoContainer>
-            </Section>
-          </>
-        )}
-      </Modal>
+      <ConfirmDetails details={modalData} open={modal}></ConfirmDetails>
     </HomePageStyles>
   );
 };
