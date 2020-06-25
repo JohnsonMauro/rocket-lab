@@ -3,7 +3,7 @@
 exports[`<Button /> Renders the primary button component 1`] = `
 <div>
   <button
-    class="css-17yivyq-ButtonStyles-primary e10ohzgh0"
+    class="css-1o9np2w-ButtonStyles-primary e10ohzgh0"
     type="button"
   />
 </div>
@@ -12,7 +12,7 @@ exports[`<Button /> Renders the primary button component 1`] = `
 exports[`<Button /> Renders the secondary button component 1`] = `
 <div>
   <button
-    class="css-jm0t4f-ButtonStyles-secondary e10ohzgh0"
+    class="css-leptw7-ButtonStyles-secondary e10ohzgh0"
     type="button"
   />
 </div>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 
 import { Formik, Form } from 'formik';
 
@@ -13,29 +13,24 @@ import Select from '@components/common/Form/Select';
 import TextArea from '@components/common/Form/TextArea';
 import ConfirmDetails from '@components/HomePage/ConfirmDetails';
 
-import { HomePageStyles, InputContainer, InputGroup, InfoContainer, InfoGroup } from './styles';
+import { HomePageStyles, InputContainer, InputGroup } from './styles';
 
-import { PhoneMask, PostCodeMask } from '@utils/masks';
 import { mockSelectTitles, mockSelectState } from './mocks';
 import { FormStructure, YupValidations } from './formStructure';
+
+import { PhoneMask, PostCodeMask } from '@utils/masks';
 
 const HomePage = () => {
   const [modal, setVisibleModal] = useState(false);
   const [modalData, setModalData] = useState();
-  const [phoneMask, setPhoneMask] = useState('');
-  const [postCodeMask, setPostCodeMask] = useState('');
 
   useEffect(() => {
     setVisibleModal(false);
   }, [ConfirmDetails]);
 
-  const handlePhoneMask = (e) => {
-    setPhoneMask(PhoneMask(e.target.value));
-  };
-
-  const handlePostCodeMask = (e) => {
-    setPostCodeMask(PostCodeMask(e.target.value));
-  };
+  const handlePhoneMask = useCallback((e) => {
+    PhoneMask(e.currentTarget.value);
+  }, []);
 
   return (
     <HomePageStyles>
@@ -119,8 +114,8 @@ const HomePage = () => {
                 <Input
                   type="text"
                   id="phone"
-                  maxLength="10"
-                  minLength="10"
+                  maxLength="13"
+                  minLength="13"
                   name="phone"
                   placeholder="Phone"
                 />

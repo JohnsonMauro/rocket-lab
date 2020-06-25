@@ -15,6 +15,7 @@ const theme = {
     success: '#02D57C',
     ultraMarine: '#0E1F8A',
     white: '#ffffff',
+    whiteSmoke: '#F8F8F8',
   },
 };
 

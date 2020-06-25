@@ -1,6 +1,6 @@
 import * as Yup from 'yup';
 
-import { EmailValidateregex, OnlyNumberRegex, PostCodeValidateRegex } from '@utils/validations';
+import { OnlyNumberRegex, PostCodeValidateRegex } from '@utils/validations';
 
 const FormStructure = {
   firstName: '',

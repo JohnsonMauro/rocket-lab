@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Renders the Header component 1`] = `
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 78px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: auto 0;
+}
+
+.emotion-0 {
+  width: 212px;
+}
+
+<div>
+  <header
+    class="emotion-2 emotion-3"
+  >
+    <img
+      alt="Crunch Accounting Logo"
+      class="emotion-0 emotion-1"
+      src="mocked-file"
+    />
+  </header>
+</div>
+`;

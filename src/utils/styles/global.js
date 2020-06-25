@@ -23,6 +23,7 @@ const styles = css`
   }
 
   body {
+    background-color: ${theme.colors.whiteSmoke};
     display: flex;
     flex-direction: column;
   }

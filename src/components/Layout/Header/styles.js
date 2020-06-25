@@ -1,6 +1,7 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 const HeaderStyles = styled.header`
+  background-color: ${({ theme }) => theme.colors.white};
   display: flex;
   height: 78px;
   justify-content: center;

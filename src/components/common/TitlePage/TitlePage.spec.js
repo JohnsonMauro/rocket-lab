@@ -2,6 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 
 import GlobalsContainer from '@test/GlobalsContainer';
+import Button from '@components/common/Form/Button';
 import TitlePage from './index';
 
 describe('<TitlePage />', () => {

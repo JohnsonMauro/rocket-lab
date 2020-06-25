@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Page /> renders Page layout unchanged 1`] = `
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 78px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: auto 0;
+}
+
+.emotion-0 {
+  width: 212px;
+}
+
+.emotion-4 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-14 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 166px;
+}
+
+@media (max-width:850px) {
+  .emotion-14 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+}
+
+.emotion-6 {
+  color: #050925;
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 0.4;
+}
+
+@media (max-width:850px) {
+  .emotion-6 {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.emotion-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 216px;
+}
+
+@media (max-width:850px) {
+  .emotion-12 {
+    margin-bottom: 5px;
+  }
+}
+
+.emotion-8 {
+  color: #050925;
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 0.4;
+}
+
+<div>
+  <header
+    class="emotion-2 emotion-3"
+  >
+    <img
+      alt="Crunch Accounting Logo"
+      class="emotion-0 emotion-1"
+      src="mocked-file"
+    />
+  </header>
+  <main
+    class="emotion-4 emotion-5"
+  />
+  <footer
+    class="emotion-14 emotion-15"
+  >
+    <p
+      class="emotion-6 emotion-7"
+    >
+      © 2020 Crunch Accounting. All right reserved.
+    </p>
+    <div
+      class="emotion-12 emotion-13"
+    >
+      <a
+        class="emotion-8 emotion-9"
+        href="#"
+      >
+        Privacy Policy
+      </a>
+      <a
+        class="emotion-8 emotion-9"
+        href="#"
+      >
+        Terms of Service
+      </a>
+    </div>
+  </footer>
+</div>
+`;

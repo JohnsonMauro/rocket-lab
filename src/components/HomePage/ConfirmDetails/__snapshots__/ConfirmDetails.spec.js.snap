@@ -1,0 +1,489 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConfirmDetails /> renders ConfirmDetails component 1`] = `
+.emotion-104 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 99;
+}
+
+.emotion-102 {
+  background-color: #ffffff;
+  border: 0.2px solid #E1E1E1;
+  border-radius: 1.8px;
+  box-shadow: 0px 1px 20px rgba(0,0,0,0.2);
+  min-height: 903px;
+  overflow-y: auto;
+  padding: 0 50px;
+  position: relative;
+  width: 936px;
+  z-index: 99;
+  -webkit-overflow-scrolling: touch;
+}
+
+.emotion-102 section {
+  padding: 0;
+}
+
+@media (max-width:992px) {
+  .emotion-102 {
+    padding: 0 25px;
+    width: 85%;
+  }
+}
+
+@media (max-width:576px) {
+  .emotion-102 {
+    box-shadow: none;
+    height: 100%;
+    min-height: unset;
+    width: 100%;
+  }
+}
+
+.emotion-8 {
+  height: 117px;
+}
+
+.emotion-0 {
+  cursor: pointer;
+  height: 16px;
+  position: absolute;
+  right: 37px;
+  top: 30px;
+  width: 16px;
+}
+
+@media (max-width:576px) {
+  .emotion-0 {
+    right: 23px;
+    top: 19px;
+  }
+}
+
+.emotion-2 {
+  color: #050925;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 50px 15px 13px 0;
+}
+
+.emotion-4 {
+  height: 16px;
+  width: 22px;
+}
+
+.emotion-6 {
+  color: #050925;
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.emotion-56 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 40px;
+  width: 100%;
+}
+
+.emotion-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.emotion-10 {
+  color: #fe6804;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.emotion-54 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-22 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width:768px) {
+  .emotion-22 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.emotion-16 {
+  display: grid;
+  grid-template-columns: 174px 1fr;
+  margin-bottom: 25px;
+}
+
+.emotion-16 label {
+  margin-right: 40px;
+  opacity: 0.5;
+  text-align: right;
+}
+
+@media (max-width:768px) {
+  .emotion-16 {
+    grid-template-columns: 151px 1fr;
+  }
+
+  .emotion-16 span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width:450px) {
+  .emotion-16 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .emotion-16 label {
+    margin-right: 0;
+    opacity: 0.5;
+    text-align: left;
+  }
+}
+
+.emotion-14 {
+  color: #050925;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+<div>
+  <div
+    aria-modal="true"
+    class="emotion-104 emotion-105"
+    data-testid="modal-component"
+    id="dismiss-modal"
+    role="dialog"
+  >
+    <div
+      class="emotion-102 emotion-103"
+    >
+      <div
+        class="emotion-8 emotion-9"
+      >
+        <img
+          class="emotion-0 emotion-1"
+          data-testid="modal-close-button"
+          src="mocked-file"
+        />
+        <h1
+          class="emotion-2 emotion-3"
+        >
+          Saved
+        </h1>
+        <img
+          class="emotion-4 emotion-5"
+          src="mocked-file"
+        />
+        <h4
+          class="emotion-6 emotion-7"
+        >
+          The contact details have been saved
+        </h4>
+      </div>
+      <div
+        class="emotion-100 emotion-101"
+      >
+        <section
+          class="emotion-56 emotion-57"
+        >
+          <header
+            class="emotion-12 emotion-13"
+          >
+            <h1
+              class="emotion-10 emotion-11"
+            >
+              Contact Information
+            </h1>
+          </header>
+          <article
+            class="emotion-54 emotion-55"
+          >
+            <div
+              class="emotion-22 emotion-23"
+            >
+              <div
+                class="emotion-16 emotion-17"
+              >
+                <label
+                  class="emotion-14 emotion-15"
+                  for="firstName"
+                >
+                  First Name
+                </label>
+                <span>
+                  Sample
+                </span>
+              </div>
+              <div
+                class="emotion-16 emotion-17"
+              >
+                <label
+                  class="emotion-14 emotion-15"
+                  for="lastName"
+                >
+                  Last Name
+                </label>
+                <span>
+                  Sample
+                </span>
+              </div>
+            </div>
+            <div
+              class="emotion-22 emotion-23"
+            >
+              <div
+                class="emotion-16 emotion-17"
+              >
+                <label
+                  class="emotion-14 emotion-15"
+                  for="accountName"
+                >
+                  Account Name
+                </label>
+                <span>
+                  Sample
+                </span>
+              </div>
+              <div
+                class="emotion-16 emotion-17"
+              >
+                <label
+                  class="emotion-14 emotion-15"
+                  for="companyName"
+                >
+                  Company Name
+                </label>
+                <span>
+                  Sample
+                </span>
+              </div>
+            </div>
+            <div
+              class="emotion-22 emotion-23"
+            >
+              <div
+                class="emotion-16 emotion-17"
+              >
+                <label
+                  class="emotion-14 emotion-15"
+                  for="phone"
+                >
+                  Phone
+                </label>
+                <span>
+                  0000000000
+                </span>
+              </div>
+              <div
+                class="emotion-16 emotion-17"
+              >
+                <label
+                  class="emotion-14 emotion-15"
+                  for="fax"
+                >
+                  Fax (optional)
+                </label>
+                <span>
+                  Sample
+                </span>
+              </div>
+            </div>
+            <div
+              class="emotion-22 emotion-23"
+            >
+              <div
+                class="emotion-16 emotion-17"
+              >
+                <label
+                  class="emotion-14 emotion-15"
+                  for="title"
+                >
+                  Title (optional)
+                </label>
+                <span>
+                  Sample
+                </span>
+              </div>
+              <div
+                class="emotion-16 emotion-17"
+              >
+                <label
+                  class="emotion-14 emotion-15"
+                  for="email"
+                >
+                  Email
+                </label>
+                <span>
+                  sample@email.com
+                </span>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section
+          class="emotion-56 emotion-57"
+        >
+          <header
+            class="emotion-12 emotion-13"
+          >
+            <h1
+              class="emotion-10 emotion-11"
+            >
+              Address Information
+            </h1>
+          </header>
+          <article
+            class="emotion-54 emotion-55"
+          >
+            <div
+              class="emotion-22 emotion-23"
+            >
+              <div
+                class="emotion-16 emotion-17"
+              >
+                <label
+                  class="emotion-14 emotion-15"
+                  for="title"
+                >
+                  Street No. & Street
+                </label>
+                <span>
+                  Sample
+                </span>
+              </div>
+              <div
+                class="emotion-16 emotion-17"
+              >
+                <label
+                  class="emotion-14 emotion-15"
+                  for="city"
+                >
+                  City
+                </label>
+                <span>
+                  Sample
+                </span>
+              </div>
+            </div>
+            <div
+              class="emotion-22 emotion-23"
+            >
+              <div
+                class="emotion-16 emotion-17"
+              >
+                <label
+                  class="emotion-14 emotion-15"
+                  for="state"
+                >
+                  State
+                </label>
+                <span>
+                  Sample
+                </span>
+              </div>
+              <div
+                class="emotion-16 emotion-17"
+              >
+                <label
+                  class="emotion-14 emotion-15"
+                  for="postcode"
+                >
+                  Postcode
+                </label>
+                <span>
+                  2000
+                </span>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section
+          class="emotion-56 emotion-57"
+        >
+          <header
+            class="emotion-12 emotion-13"
+          >
+            <h1
+              class="emotion-10 emotion-11"
+            >
+              Description Information
+            </h1>
+          </header>
+          <article
+            class="emotion-54 emotion-55"
+          >
+            <div
+              class="emotion-22 emotion-23"
+            >
+              <div
+                class="emotion-16 emotion-17"
+              >
+                <label
+                  class="emotion-14 emotion-15"
+                  for="description"
+                >
+                  Description
+                </label>
+                <span>
+                  Sample
+                </span>
+              </div>
+            </div>
+          </article>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+`;

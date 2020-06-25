@@ -1,0 +1,827 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> renders HomePage layout unchanged 1`] = `
+.emotion-141 {
+  width: 100%;
+}
+
+.emotion-141 section {
+  margin-bottom: 60px;
+}
+
+.emotion-141 section:nth-of-type(1) {
+  margin-top: 50px;
+}
+
+.emotion-141 section:nth-of-type(3) > article > div > div {
+  margin: 0;
+  width: 100%;
+}
+
+@media (max-width:576px) {
+  .emotion-141 section {
+    padding: 0 20px;
+  }
+}
+
+.emotion-10 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #0E1F8A;
+  display: grid;
+  min-height: 58px;
+  padding: 0 40px;
+  width: 100%;
+}
+
+@media (max-width:576px) {
+  .emotion-10 {
+    padding: 0 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+.emotion-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (max-width:576px) {
+  .emotion-8 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 5px 0;
+  }
+}
+
+.emotion-0 {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.emotion-6 button:nth-of-type(1) {
+  margin-right: 10px;
+}
+
+.emotion-2 {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #fe6804;
+  border-radius: 1.8px;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none;
+  padding: 7px 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+}
+
+.emotion-4 {
+  background-color: #fe6804;
+  border: 1px solid #fe6804;
+  color: #ffffff;
+  border-radius: 1.8px;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none;
+  padding: 7px 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+}
+
+.emotion-87 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 40px;
+  width: 100%;
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.emotion-12 {
+  color: #fe6804;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.emotion-85 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-32 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-32:last-of-type {
+  max-width: 679px;
+  width: 100%;
+}
+
+.emotion-32 > div:nth-of-type(1) {
+  margin-right: 15px;
+}
+
+@media (max-width:576px) {
+  .emotion-32 > div:nth-of-type(1) {
+    margin-right: 0;
+    max-width: 100%;
+  }
+}
+
+@media (max-width:576px) {
+  .emotion-32 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.emotion-24 {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 332px;
+}
+
+@media (max-width:576px) {
+  .emotion-24 {
+    width: 100%;
+  }
+}
+
+.emotion-16 {
+  color: #050925;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.emotion-22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-22 select {
+  background-position: 90% 50%;
+  max-width: 87px;
+}
+
+@media (max-width:576px) {
+  .emotion-22 select {
+    max-width: 87px;
+  }
+}
+
+.emotion-18 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url(mocked-file);
+  background-position: 97% 50%;
+  background-repeat: no-repeat;
+  border: 0.2px solid #E1E1E1;
+  border-radius: 1.8px;
+  display: block;
+  height: 34px;
+  max-width: 332px;
+  outline: none;
+  padding: 6px 5px;
+  width: 100%;
+}
+
+.emotion-18::-webkit-input-placeholder {
+  color: #E1E1E1;
+}
+
+.emotion-18::-moz-placeholder {
+  color: #E1E1E1;
+}
+
+.emotion-18:-ms-input-placeholder {
+  color: #E1E1E1;
+}
+
+.emotion-18::placeholder {
+  color: #E1E1E1;
+}
+
+.emotion-18 option[value=''] {
+  color: #E1E1E1;
+}
+
+@media (max-width:576px) {
+  .emotion-18 {
+    max-width: 100%;
+  }
+}
+
+.emotion-20 {
+  border: 0.2px solid #E1E1E1;
+  border-radius: 1.8px;
+  display: block;
+  height: 34px;
+  max-width: 244px;
+  outline: none;
+  padding: 6px 5px;
+  width: 100%;
+}
+
+.emotion-20::-webkit-input-placeholder {
+  color: #E1E1E1;
+}
+
+.emotion-20::-moz-placeholder {
+  color: #E1E1E1;
+}
+
+.emotion-20:-ms-input-placeholder {
+  color: #E1E1E1;
+}
+
+.emotion-20::placeholder {
+  color: #E1E1E1;
+}
+
+@media (max-width:576px) {
+  .emotion-20 {
+    max-width: 100%;
+  }
+}
+
+.emotion-28 {
+  border: 0.2px solid #E1E1E1;
+  border-radius: 1.8px;
+  display: block;
+  height: 34px;
+  max-width: 332px;
+  outline: none;
+  padding: 6px 5px;
+  width: 100%;
+}
+
+.emotion-28::-webkit-input-placeholder {
+  color: #E1E1E1;
+}
+
+.emotion-28::-moz-placeholder {
+  color: #E1E1E1;
+}
+
+.emotion-28:-ms-input-placeholder {
+  color: #E1E1E1;
+}
+
+.emotion-28::placeholder {
+  color: #E1E1E1;
+}
+
+@media (max-width:576px) {
+  .emotion-28 {
+    max-width: 100%;
+  }
+}
+
+.emotion-81 {
+  color: #050925;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-81 input:checked ~ span:after {
+  display: block;
+}
+
+.emotion-76 {
+  margin-left: 18px;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.emotion-78 {
+  border: 0.6px solid #E1E1E1;
+  border-radius: 1.6px;
+  height: 16px;
+  left: 0;
+  top: 0;
+  width: 16px;
+}
+
+.emotion-78:after {
+  content: '';
+  border: solid #02D57C;
+  border-width: 0 1px 1px 0;
+  display: none;
+  height: 10px;
+  left: 4px;
+  position: relative;
+  top: 1px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 5px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+}
+
+.emotion-131 {
+  border: 0.2px solid #E1E1E1;
+  border-radius: 1.8px;
+  display: block;
+  width: 100%;
+}
+
+<div>
+  <div
+    class="emotion-141 emotion-142"
+  >
+    <form
+      action="#"
+    >
+      <div
+        class="emotion-10 emotion-11"
+      >
+        <header
+          class="emotion-8 emotion-9"
+        >
+          <h1
+            class="emotion-0 emotion-1"
+          >
+            Create Contact
+          </h1>
+          <div
+            class="emotion-6 emotion-7"
+          >
+            <button
+              class="emotion-2 emotion-3"
+              type="reset"
+            >
+              Cancel
+            </button>
+            <button
+              class="emotion-4 emotion-3"
+              type="submit"
+            >
+              Save
+            </button>
+          </div>
+        </header>
+      </div>
+      <section
+        class="emotion-87 emotion-88"
+      >
+        <header
+          class="emotion-14 emotion-15"
+        >
+          <h1
+            class="emotion-12 emotion-13"
+          >
+            Contact Information
+          </h1>
+        </header>
+        <article
+          class="emotion-85 emotion-86"
+        >
+          <div
+            class="emotion-32 emotion-33"
+          >
+            <div
+              class="emotion-24 emotion-25"
+            >
+              <label
+                class="emotion-16 emotion-17"
+                for="firstName"
+              >
+                First Name
+              </label>
+              <div
+                class="emotion-22 emotion-23"
+              >
+                <select
+                  class="emotion-18 emotion-19"
+                  name="personTitle"
+                >
+                  <option
+                    value="1"
+                  >
+                    Mr.
+                  </option>
+                  <option
+                    value="2"
+                  >
+                    Mrs.
+                  </option>
+                </select>
+                <input
+                  class="emotion-20 emotion-21"
+                  id="firstName"
+                  maxlength="20"
+                  minlength="3"
+                  name="firstName"
+                  placeholder="First Name"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="emotion-24 emotion-25"
+            >
+              <label
+                class="emotion-16 emotion-17"
+                for="lastName"
+              >
+                Last Name
+              </label>
+              <input
+                class="emotion-28 emotion-29"
+                id="lastName"
+                maxlength="15"
+                minlength="3"
+                name="lastName"
+                placeholder="Last Name"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="emotion-32 emotion-33"
+          >
+            <div
+              class="emotion-24 emotion-25"
+            >
+              <label
+                class="emotion-16 emotion-17"
+                for="accountName"
+              >
+                Account Name
+              </label>
+              <input
+                class="emotion-28 emotion-29"
+                id="accountName"
+                maxlength="50"
+                minlength="3"
+                name="accountName"
+                placeholder="Account Name"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="emotion-24 emotion-25"
+            >
+              <label
+                class="emotion-16 emotion-17"
+                for="companyName"
+              >
+                Company Name
+              </label>
+              <input
+                class="emotion-28 emotion-29"
+                id="companyName"
+                maxlength="50"
+                minlength="3"
+                name="companyName"
+                placeholder="Company Name"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="emotion-32 emotion-33"
+          >
+            <div
+              class="emotion-24 emotion-25"
+            >
+              <label
+                class="emotion-16 emotion-17"
+                for="phone"
+              >
+                Phone
+              </label>
+              <input
+                class="emotion-28 emotion-29"
+                id="phone"
+                maxlength="10"
+                minlength="10"
+                name="phone"
+                placeholder="Phone"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="emotion-24 emotion-25"
+            >
+              <label
+                class="emotion-16 emotion-17"
+                for="fax"
+              >
+                Fax (optional)
+              </label>
+              <input
+                class="emotion-28 emotion-29"
+                id="fax"
+                maxlength="50"
+                minlength="3"
+                name="fax"
+                placeholder="Fax"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="emotion-32 emotion-33"
+          >
+            <div
+              class="emotion-24 emotion-25"
+            >
+              <label
+                class="emotion-16 emotion-17"
+                for="title"
+              >
+                Title (optional)
+              </label>
+              <input
+                class="emotion-28 emotion-29"
+                id="title"
+                maxlength="50"
+                minlength="3"
+                name="title"
+                placeholder="Title"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="emotion-24 emotion-25"
+            >
+              <label
+                class="emotion-16 emotion-17"
+                for="email"
+              >
+                Email
+              </label>
+              <input
+                class="emotion-28 emotion-29"
+                id="email"
+                maxlength="50"
+                minlength="7"
+                name="email"
+                placeholder="sample@email.com"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="emotion-32 emotion-33"
+          >
+            <label
+              class="emotion-80 emotion-81 emotion-17"
+              for="emailOptOut"
+            >
+              Email Opt Out
+              <input
+                class="emotion-76 emotion-77"
+                id="emailOptOut"
+                name="emailOptOut"
+                type="checkbox"
+                value=""
+              />
+              <span
+                class="emotion-78 emotion-79"
+              />
+            </label>
+          </div>
+        </article>
+      </section>
+      <section
+        class="emotion-87 emotion-88"
+      >
+        <header
+          class="emotion-14 emotion-15"
+        >
+          <h1
+            class="emotion-12 emotion-13"
+          >
+            Address Information
+          </h1>
+        </header>
+        <article
+          class="emotion-85 emotion-86"
+        >
+          <div
+            class="emotion-32 emotion-33"
+          >
+            <div
+              class="emotion-24 emotion-25"
+            >
+              <label
+                class="emotion-16 emotion-17"
+                for="numberAndStreet"
+              >
+                Street No. & Street
+              </label>
+              <input
+                class="emotion-28 emotion-29"
+                id="numberAndStreet"
+                maxlength="50"
+                minlength="10"
+                name="numberAndStreet"
+                placeholder="103, Street Down"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="emotion-24 emotion-25"
+            >
+              <label
+                class="emotion-16 emotion-17"
+                for="city"
+              >
+                City
+              </label>
+              <input
+                class="emotion-28 emotion-29"
+                id="city"
+                maxlength="50"
+                minlength="3"
+                name="city"
+                placeholder="Sydney"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="emotion-32 emotion-33"
+          >
+            <div
+              class="emotion-24 emotion-25"
+            >
+              <label
+                class="emotion-16 emotion-17"
+                for="state"
+              >
+                State
+              </label>
+              <select
+                class="emotion-18 emotion-19"
+                name="state"
+              >
+                <option
+                  value=""
+                >
+                  Search State or territory
+                </option>
+                <option
+                  value="New South Wales"
+                >
+                  New South Wales
+                </option>
+                <option
+                  value="Victoria"
+                >
+                  Victoria
+                </option>
+                <option
+                  value="Queensland"
+                >
+                  Queensland
+                </option>
+                <option
+                  value="Western Australia"
+                >
+                  Western Australia
+                </option>
+                <option
+                  value="South Australia"
+                >
+                  South Australia
+                </option>
+                <option
+                  value="Tsmania"
+                >
+                  Tsmania
+                </option>
+              </select>
+            </div>
+            <div
+              class="emotion-24 emotion-25"
+            >
+              <label
+                class="emotion-16 emotion-17"
+                for="postcode"
+              >
+                Postcode
+              </label>
+              <input
+                class="emotion-28 emotion-29"
+                id="postcode"
+                maxlength="4"
+                minlength="4"
+                name="postcode"
+                placeholder="2000"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </article>
+      </section>
+      <section
+        class="emotion-87 emotion-88"
+      >
+        <header
+          class="emotion-14 emotion-15"
+        >
+          <h1
+            class="emotion-12 emotion-13"
+          >
+            Description Information
+          </h1>
+        </header>
+        <article
+          class="emotion-85 emotion-86"
+        >
+          <div
+            class="emotion-32 emotion-33"
+          >
+            <div
+              class="emotion-24 emotion-25"
+            >
+              <label
+                class="emotion-16 emotion-17"
+                for="description"
+              >
+                Description
+              </label>
+              <textarea
+                class="emotion-131 emotion-132"
+                id="description"
+                maxlength="2000"
+                minlength="2"
+                name="description"
+                rows="13"
+              />
+            </div>
+          </div>
+        </article>
+      </section>
+    </form>
+  </div>
+</div>
+`;

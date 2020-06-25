@@ -30,6 +30,10 @@ const Title = styled.h1`
   font-size: 25px;
   font-weight: 400;
   margin: 0;
+
+  @media (max-width: 576px) {
+    text-align: center;
+  }
 `;
 
 const ButtonContainer = styled.div`

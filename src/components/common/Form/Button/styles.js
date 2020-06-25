@@ -19,8 +19,10 @@ const ButtonStyles = styled.button`
   ${variantns};
   border-radius: 1.8px;
   cursor: pointer;
+  font-size: 20px;
+  height: 32px;
   outline: none;
-  padding: 7px 22px;
+  padding: 0 22px;
   user-select: none;
   vertical-align: middle;
 `;
